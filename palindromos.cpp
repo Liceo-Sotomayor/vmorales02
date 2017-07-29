@@ -5,7 +5,7 @@ int main() {
     string palabra;
     cout << " ingrese una palabra " << endl;
     cin >> palabra;
-    for (int i=0; i<palabra.size; i++) {
-    cout << palabra [0] << palabra.size() << endl;
+    for (int i=0; i < palabra.size(); i++) {
+    cout << palabra [i] << endl;
     }
 }
